@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('Roboto-Regular-webfont.woff2') format('woff2'), url('Roboto-Regular-webfont.woff') format('woff'), url('Roboto-Regular-webfont.ttf') format('truetype'), url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 80vh;
+    margin: 0;
+}
+
+.enbref {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    background-color: grey;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.img0 {
+    width: 3%;
+    height: 8%;
+}
+
+.img {
+    height: 100%;
+    width: 78%;
+    background-image: url(./../style/enbref/valeurs.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    justify-content: center;
+}
+
+footer {
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: red;
+}
+
+.alert {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: large;
+}
+
+.mentions,
+.politique {
+    color: blanchedalmond;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.excellence,
+.engagement,
+.audace,
+.humanisme {
+    display: none;
+}

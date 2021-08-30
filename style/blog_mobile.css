@@ -1,0 +1,79 @@
+@media all and (max-width: 401px) {
+    @font-face {
+        font-family: 'robotoregular';
+        src: url('Roboto-Regular-webfont.eot');
+        src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('Roboto-Regular-webfont.woff2') format('woff2'), url('Roboto-Regular-webfont.woff') format('woff'), url('Roboto-Regular-webfont.ttf') format('truetype'), url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body {
+        margin: 0;
+    }
+    .img {
+        width: 3%;
+        height: 3%;
+    }
+    .blog {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        text-align: center;
+    }
+    h2 {
+        background-color: grey;
+        color: blanchedalmond;
+    }
+    .block1 {
+        width: 100vw;
+        height: 50%;
+        display: flex;
+    }
+    .block2 {
+        width: 100vw;
+        height: 50%;
+        display: flex;
+    }
+    .img {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    h3 {
+        text-align: center;
+    }
+    .article1,
+    .article2 {
+        height: fit-content;
+        width: 50%;
+        text-align: justify;
+        margin: auto;
+    }
+    footer {
+        height: 10%;
+        width: 100vw;
+        background-color: black;
+        color: red;
+    }
+    .alert {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .mentions,
+    .politique {
+        color: blanchedalmond;
+        font-size: 7px;
+    }
+    a {
+        text-decoration: none;
+        color: blanchedalmond;
+    }
+    .acceuil {
+        height: fit-content;
+        width: fit-content;
+        background-color: gray;
+    }
+}
