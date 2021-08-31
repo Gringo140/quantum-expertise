@@ -7,10 +7,10 @@ class Model
 
     public function __construct()
     {
-        $host = 'wynsewvquantum20.mysql.db';
-        $dbname = 'wynsewvquantum20';
-        $user = 'wynsewvquantum20';
-        $pswrd = 'Quantum2020';
+        $host = '';
+        $dbname = '';
+        $user = '';
+        $pswrd = '';
 
         try {
             $this->bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8",
